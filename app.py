@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-vehicles_df = pd.read_csv('../vehicles.csv')
+vehicles_df = pd.read_csv('./vehicles.csv')
 
 # Set the title of the app
 st.header("Vehicle Data Analysis")
